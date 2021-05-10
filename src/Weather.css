@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "SFAlienEncounters";
+  src: url("/src/fonts/SFAlienEncounters.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "basicLAZER";
+  src: url("/src/fonts/basicLAZER.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "VIDEOPHREAK";
+  src: url("/src/fonts/VIDEOPHREAK.ttf") format("truetype");
+}
+
+.Weather {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 211, 25, 1) 0%,
+    rgba(255, 144, 31, 1) 20%,
+    rgba(255, 41, 117, 1) 40%,
+    rgba(242, 34, 255, 1) 60%,
+    rgba(140, 30, 255, 1) 80%
+  );
+  width: 550px;
+  height: 800px;
+  border: solid 1px #000;
+}
+
+.Weather h1 {
+  font-size: 70px;
+  font-family: "VIDEOPHREAK", monospace;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+
+.Weather li {
+  list-style: none;
+}
+
+.Weather span {
+  font-size: 35px;
+}
+
+.Weather li,
+p,
+span {
+  font-family: "Roboto Mono", monospace;
+}
+
+.Weather form {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}

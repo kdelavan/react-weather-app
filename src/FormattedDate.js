@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Weather.css";
+
 export default function FormattedDate(props) {
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];  
   let day = days[props.date.getDay()];
@@ -15,6 +17,6 @@ export default function FormattedDate(props) {
   }
     
   return (
-    <div>Last updated: {day} {hours}:{minutes}</div>
+    <div className="DateTime">Last updated: {day} {hours}:{minutes}</div>
     );
 }

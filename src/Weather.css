@@ -1,7 +1,5 @@
 .Weather form {
   font-family: Helvetica, sans-serif;
-  margin-left: 353px;
-  margin-bottom: 15px;
 }
 
 .WeatherInfo {
@@ -9,14 +7,16 @@
   width: 591px;
   height: 586px;
   margin: 0 auto;
+  border-radius: 4px;
 }
 
 .WeatherInfo h1 {
-  font-size: 70px;
+  font-size: 57.15px;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  padding-left: 25px;
-  padding-top: 25px;
+  line-height: 65.72px;
+  padding-top: 42px;
+  padding-left: 38px;
 }
 
 .WeatherInfo li {
@@ -24,7 +24,9 @@
 }
 
 .WeatherInfo span {
-  font-size: 35px;
+  font-size: 57.15px;
+  font-weight: 700;
+  line-height: 65.72px;
 }
 
 .WeatherInfo li,
@@ -33,12 +35,27 @@ span {
   font-family: Helvetica, sans-serif;
 }
 
+.WeatherInfo ul {
+  margin-right: 34px;
+}
+
 .WeatherInfo canvas {
-  margin-left: 20px;
+  margin: 0 18px 15px 20px;
   display: inline-block;
 }
 
 .WeatherInfo footer {
   font-family: Helvetica, sans-serif;
   text-align: center;
+  margin-top: 100px;
+}
+
+.WeatherInfo footer img {
+  width: 50px;
+  margin-left: 125px;
+}
+
+.DateTime {
+  font-size: 16px;
+  padding-left: 38px;
 }

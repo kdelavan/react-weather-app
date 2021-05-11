@@ -20,38 +20,32 @@ export default function Weather(props) {
     });
   }
 
-  if (weatherData.ready) {
- return ( 
-    <div className="Weather">
-     <form className="mt-5">
+if (weatherData.ready) {
+ return ( <div className="Weather">
+    <form>
        <input type="search" 
        placeholder="Enter a city" 
        classname="form-control" 
        autofocus="on" 
        />
        <input type="submit" 
-       value="Search" 
-       className="btn btn-light" 
-       />
+       value="Search" />
      </form>
-
+     
+    <div className="WeatherDetails">
       <h1>{weatherData.city}</h1>
-      <p className="ms-4">Last Updated: {weatherData.date}</p> 
-       
-        <div className="row">
-          <div className="col-6">
-          <img className="ms-4" src={weatherData.iconUrl} alt={weatherData.description} />
+      <p className="ms-4">Last Updated: {weatherData.date}</p>
+          <img className="ms-4" src={weatherData.icon} alt={weatherData.description} />
           <span className="temperature"> {Math.round(weatherData.temperature)}°F</span>
-          </div>
-
-          <div className="col">
+          <div>
             <ul>
-              <li>{weatherData.description}</li>
+              <li className="text-capitalize">{weatherData.description}</li>
               <li>Humidity: {weatherData.humidity}%</li>
               <li>Wind: {Math.round(weatherData.wind)} mph</li>
             </ul>
           </div> 
-        </div>  
+    <footer>Coded by<a href="https://elegant-carson-775ffa.netlify.app/"> Kathryn Delavan</a> | Open-source on <a href="https://github.com/kdelavan/react-weather-app">GitHub</a></footer>
+    </div>
     </div>
   );
 } else {

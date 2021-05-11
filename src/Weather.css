@@ -1,54 +1,39 @@
-@font-face {
-  font-family: "SFAlienEncounters";
-  src: url("/src/fonts/SFAlienEncounters.ttf") format("truetype");
+.Weather form {
+  font-family: Helvetica, sans-serif;
+  margin-left: 353px;
+  margin-bottom: 15px;
 }
 
-@font-face {
-  font-family: "basicLAZER";
-  src: url("/src/fonts/basicLAZER.otf") format("opentype");
+.WeatherDetails {
+  background: #d2d2d2;
+  width: 591px;
+  height: 586px;
+  margin: 0 auto;
 }
 
-@font-face {
-  font-family: "VIDEOPHREAK";
-  src: url("/src/fonts/VIDEOPHREAK.ttf") format("truetype");
-}
-
-.Weather {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 211, 25, 1) 0%,
-    rgba(255, 144, 31, 1) 20%,
-    rgba(255, 41, 117, 1) 40%,
-    rgba(242, 34, 255, 1) 60%,
-    rgba(140, 30, 255, 1) 80%
-  );
-  width: 550px;
-  height: 800px;
-  border: solid 1px #000;
-}
-
-.Weather h1 {
+.WeatherDetails h1 {
   font-size: 70px;
-  font-family: "VIDEOPHREAK", monospace;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
   padding-left: 25px;
   padding-top: 25px;
 }
 
-.Weather li {
+.WeatherDetails li {
   list-style: none;
 }
 
-.Weather span {
+.WeatherDetails span {
   font-size: 35px;
 }
 
-.Weather li,
+.WeatherDetails li,
 p,
 span {
-  font-family: "Roboto Mono", monospace;
+  font-family: Helvetica, sans-serif;
 }
 
-.Weather form {
+.WeatherDetails footer {
+  font-family: Helvetica, sans-serif;
   text-align: center;
-  font-family: "Roboto Mono", monospace;
 }

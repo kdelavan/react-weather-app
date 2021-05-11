@@ -7,8 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
      <Weather defaultCity = "New York" />
-   
-     <footer>Coded by<a href="https://elegant-carson-775ffa.netlify.app/"> Kathryn Delavan</a> | Open-source on <a href="https://github.com/kdelavan/react-weather-app">GitHub</a></footer>
+  
      </div>
     </div>
   );

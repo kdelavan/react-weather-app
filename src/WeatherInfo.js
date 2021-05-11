@@ -8,7 +8,7 @@ export default function WeatherInfo(props) {
       <p>
         <FormattedDate date={props.data.date} />
       </p>
-          <img className="ms-4" src={props.data.icon} alt={props.data.description} />
+          <img className="ms-4" src={props.data.iconUrl} alt={props.data.description} />
           <span className="temperature"> {Math.round(props.data.temperature)}°F</span>
           <div>
             <ul>

@@ -4,14 +4,14 @@
   margin-bottom: 15px;
 }
 
-.WeatherDetails {
+.WeatherInfo {
   background: #d2d2d2;
   width: 591px;
   height: 586px;
   margin: 0 auto;
 }
 
-.WeatherDetails h1 {
+.WeatherInfo h1 {
   font-size: 70px;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
@@ -19,21 +19,21 @@
   padding-top: 25px;
 }
 
-.WeatherDetails li {
+.WeatherInfo li {
   list-style: none;
 }
 
-.WeatherDetails span {
+.WeatherInfo span {
   font-size: 35px;
 }
 
-.WeatherDetails li,
+.WeatherInfo li,
 p,
 span {
   font-family: Helvetica, sans-serif;
 }
 
-.WeatherDetails footer {
+.WeatherInfo footer {
   font-family: Helvetica, sans-serif;
   text-align: center;
 }

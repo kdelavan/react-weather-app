@@ -33,6 +33,11 @@ span {
   font-family: Helvetica, sans-serif;
 }
 
+.WeatherInfo canvas {
+  margin-left: 20px;
+  display: inline-block;
+}
+
 .WeatherInfo footer {
   font-family: Helvetica, sans-serif;
   text-align: center;

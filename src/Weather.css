@@ -36,7 +36,7 @@ body {
   font-size: 45px;
   font-weight: 700;
   line-height: 30px;
-  padding-right: 38px;
+  padding-right: 20px;
 }
 
 .WeatherInfo li,
@@ -75,4 +75,12 @@ span {
 
 .WeatherInfo .Rainbow img {
   padding-top: 150px;
+}
+
+.WeatherTemperature .unit {
+  font-size: 18px;
+}
+
+.WeatherTemperature .unit a {
+  text-decoration: none;
 }

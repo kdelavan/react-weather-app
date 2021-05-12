@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcons from "./WeatherIcons";
+import WeatherTemperature from "./WeatherTemperature";
 import Rainbow from "./Rainbow";
 import Logo from "./images/VHS-logo.png";
 
@@ -10,7 +11,7 @@ export default function WeatherInfo(props) {
       
         <div className="city-temp">
           <h1>{props.data.city} </h1>      
-            <span className="temperature"><WeatherIcons code={props.data.icon} /> {Math.round(props.data.temperature)}°F </span>
+            <span className="temperature"><WeatherIcons code={props.data.icon} />{" "}<WeatherTemperature fahrenheit={props.data.temperature} /> </span>
        </div>
         <FormattedDate date={props.data.date} />
           <div className="d-flex flex-row-reverse">

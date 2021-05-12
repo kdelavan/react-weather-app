@@ -6,17 +6,13 @@ import Logo from "./images/VHS-logo.png";
 
 export default function WeatherInfo(props) {
     return (
-    <div className="WeatherInfo container">
+    <div className="WeatherInfo">
       
-        <div classname="d-flex flex-row">
-          <h1>{props.data.city}</h1>
-          <FormattedDate date={props.data.date} />
-        </div>
-      <div className="d-flex flex-row-reverse">
-        <WeatherIcons code={props.data.icon} />
-        <span className="temperature"> {Math.round(props.data.temperature)}°F</span>
-        </div>
-      
+        <div className="city-temp">
+          <h1>{props.data.city} </h1>      
+            <span className="temperature"><WeatherIcons code={props.data.icon} /> {Math.round(props.data.temperature)}°F </span>
+       </div>
+        <FormattedDate date={props.data.date} />
           <div className="d-flex flex-row-reverse">
             <ul>
               <li className="text-capitalize">{props.data.description}</li>
@@ -24,10 +20,10 @@ export default function WeatherInfo(props) {
               <li>Wind: {Math.round(props.data.wind)} mph</li>
             </ul>
           </div> 
-        <Rainbow />
-    <footer>Coded by
+       <Rainbow />
+    <footer>Coded by{" "}
       <a href="https://elegant-carson-775ffa.netlify.app/"> 
-      Kathryn Delavan</a> | Open-source on 
+      Kathryn Delavan</a> | Open-source on {" "}
       <a href="https://github.com/kdelavan/react-weather-app">
         GitHub</a>
      {" "}<img className="img-fluid" src={Logo} alt="vhs logo"/>

@@ -43,14 +43,13 @@ if (weatherData.ready) {
  <div className="Weather container">
   
     <form onSubmit={handleSubmit}>
-       <input 
+       <input className="searchBar me-2 p-1"
        type="search" 
        placeholder="Enter a city" 
        classname="form-control" 
-       autofocus="on" 
        onChange={handleCityChange}
        />
-       <input 
+       <input className="btn btn-dark"
        type="submit" 
        value="Search" />
      </form>

@@ -1,5 +1,16 @@
+body {
+  background-color: #535353;
+}
+
 .Weather form {
   font-family: Helvetica, sans-serif;
+  text-align: center;
+  margin: 25px 0 15px 0;
+  border-radius: 4px;
+}
+
+.searchBar {
+  border-image: linear-gradient(#ff006d, #fcde10, #7adf00, #00b1ee) 5 / 1;
 }
 
 .WeatherInfo {
@@ -11,12 +22,10 @@
 }
 
 .WeatherInfo h1 {
-  font-size: 57.15px;
+  font-size: 45px;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  line-height: 65.72px;
-  padding-top: 42px;
-  padding-left: 38px;
+  margin-bottom: 0;
 }
 
 .WeatherInfo li {
@@ -24,9 +33,10 @@
 }
 
 .WeatherInfo span {
-  font-size: 57.15px;
+  font-size: 45px;
   font-weight: 700;
-  line-height: 65.72px;
+  line-height: 30px;
+  padding-right: 38px;
 }
 
 .WeatherInfo li,
@@ -39,23 +49,36 @@ span {
   margin-right: 34px;
 }
 
-.WeatherInfo canvas {
-  margin: 0 18px 15px 20px;
-  display: inline-block;
-}
-
 .WeatherInfo footer {
   font-family: Helvetica, sans-serif;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 35px;
+  font-size: 13px;
 }
 
 .WeatherInfo footer img {
   width: 50px;
-  margin-left: 125px;
+  margin-left: 165px;
 }
 
 .DateTime {
   font-size: 16px;
   padding-left: 38px;
 }
+
+.WeatherInfo .city-temp {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+  padding-left: 38px;
+}
+
+.WeatherInfo .Rainbow img {
+  padding-top: 150px;
+}
+
+/*
+.font-size {
+  font-size: 11px;
+}
+*/

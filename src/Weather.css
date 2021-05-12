@@ -78,9 +78,17 @@ span {
 }
 
 .WeatherTemperature .unit {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .WeatherTemperature .unit a {
   text-decoration: none;
+}
+
+.WeatherTemperature .unit .celsius {
+  color: #00b1ee;
+}
+
+.WeatherTemperature .unit .fahrenheit {
+  color: #00b1ee;
 }

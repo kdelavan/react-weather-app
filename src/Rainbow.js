@@ -5,7 +5,7 @@ import ColorBlocks from "./images/rainbow.png";
 export default function Rainbow() {
     return (
     <div className="Rainbow">
-<img  width="100%"  src={ColorBlocks}></img>
+<img  width="100%"  src={ColorBlocks} alt="rainbow rectangles"></img>
     </div>
     );
 }

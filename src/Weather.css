@@ -32,7 +32,7 @@ body {
   list-style: none;
 }
 
-.WeatherInfo span {
+.WeatherInfo .temperature {
   font-size: 45px;
   font-weight: 700;
   line-height: 30px;
@@ -52,7 +52,7 @@ span {
 .WeatherInfo footer {
   font-family: Helvetica, sans-serif;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 8px;
   font-size: 13px;
 }
 
@@ -74,7 +74,7 @@ span {
 }
 
 .WeatherInfo .Rainbow img {
-  padding-top: 150px;
+  padding-top: 90px;
 }
 
 .WeatherTemperature .unit {

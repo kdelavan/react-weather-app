@@ -57,6 +57,10 @@ span {
   font-size: 13px;
 }
 
+.WeatherInfo footer a {
+  color: #00b1ee;
+}
+
 .WeatherInfo footer img {
   width: 50px;
   margin-left: 165px;

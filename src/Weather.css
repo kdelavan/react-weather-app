@@ -47,12 +47,13 @@ span {
 
 .WeatherInfo ul {
   margin-right: 34px;
+  margin-bottom: 0;
 }
 
 .WeatherInfo footer {
   font-family: Helvetica, sans-serif;
   text-align: center;
-  margin-top: 8px;
+  margin-top: 18px;
   font-size: 13px;
 }
 
@@ -74,21 +75,9 @@ span {
 }
 
 .WeatherInfo .Rainbow img {
-  padding-top: 90px;
+  padding-top: 21px;
 }
 
 .WeatherTemperature .unit {
-  font-size: 20px;
-}
-
-.WeatherTemperature .unit a {
-  text-decoration: none;
-}
-
-.WeatherTemperature .unit .celsius {
-  color: #00b1ee;
-}
-
-.WeatherTemperature .unit .fahrenheit {
-  color: #00b1ee;
+  font-size: 22px;
 }

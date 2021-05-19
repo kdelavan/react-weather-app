@@ -1,5 +1,19 @@
 .WeatherForecast {
   text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  margin: 0 15px 0 15px;
+  padding: 20px;
+}
+
+p {
+  text-align: left !important;
+  margin-left: 22px;
+  margin-bottom: 2px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .WeatherForecast-day {
@@ -7,6 +21,6 @@
 }
 
 .WeatherForecast-temp-min {
-  opacity: 0.8;
+  opacity: 0.6;
   margin-left: 5px;
 }

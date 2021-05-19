@@ -63,7 +63,7 @@ export default function Weather(props) {
             <a
               href="https://elegant-carson-775ffa.netlify.app/"
               target="_blank"
-              rel="noopener no referrer"
+              rel="noopener noreferrer"
             >
               Kathryn Delavan
             </a>{" "}
@@ -71,7 +71,7 @@ export default function Weather(props) {
             <a
               href="https://github.com/kdelavan/react-weather-app"
               target="_blank"
-              rel="noopener no referrer"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>{" "}

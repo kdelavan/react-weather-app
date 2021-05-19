@@ -60,11 +60,21 @@ export default function Weather(props) {
           <Rainbow />
           <footer>
             Coded by{" "}
-            <a href="https://elegant-carson-775ffa.netlify.app/">
+            <a
+              href="https://elegant-carson-775ffa.netlify.app/"
+              target="_blank"
+              rel="noopener no referrer"
+            >
               Kathryn Delavan
             </a>{" "}
             | Open-source on{" "}
-            <a href="https://github.com/kdelavan/react-weather-app">GitHub</a>{" "}
+            <a
+              href="https://github.com/kdelavan/react-weather-app"
+              target="_blank"
+              rel="noopener no referrer"
+            >
+              GitHub
+            </a>{" "}
             <img className="img-fluid" src={Logo} alt="vhs logo" />
           </footer>{" "}
         </div>
